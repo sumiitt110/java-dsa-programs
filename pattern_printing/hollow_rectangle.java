@@ -1,19 +1,18 @@
+import java.util.*;
 
-import java.util.Scanner;
-
-public class CapitalSmallLetter{
+public class hollow_rectangle {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the number of rows and column:");
+        System.out.println("Enter the nuumber of rows and column:");
         int r=sc.nextInt();
         int c=sc.nextInt();
-
         for(int i=1;i<=r;i++){
             for(int j=1;j<=c;j++){
-                if(i%2==0)
-                System.out.print((char)(i+64)+" ");
+                if(i==1||j==1||i==r||j==c){
+                    System.out.print("* ");
+                }
                 else{
-                    System.out.print((char)(i+96)+" ");
+                    System.out.print("  ");
                 }
             }
             System.out.println();

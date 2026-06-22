@@ -1,4 +1,4 @@
-package pattern_printing;
+
 import java.util.Scanner;
 
 public class alphabet_1{
