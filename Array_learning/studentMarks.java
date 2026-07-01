@@ -1,4 +1,4 @@
-package Array_learning;
+
 import java.util.*;
 public class studentMarks {
      public static void main(String[] args) {
